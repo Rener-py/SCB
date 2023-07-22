@@ -1,0 +1,367 @@
+{
+  "mod_elements": [
+    {
+      "name": "SpiritFormEffect",
+      "type": "potioneffect",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spirit_form_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/potion/SpiritFormEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "SpiritFormRespawn",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spirit_form_respawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/procedures/SpiritFormRespawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cleaneffectproximity",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaneffectproximity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/procedures/CleaneffectproximityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deadblock",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deadblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/procedures/DeadblockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Weird",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weird",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scb/models/item/weird.json",
+          "src/main/resources/assets/scb/models/block/weird.json",
+          "src/main/resources/assets/scb/blockstates/weird.json",
+          "src/main/java/net/mcreator/scbreforged/block/WeirdBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WeirdUpdateTick",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weird_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/procedures/WeirdUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Weirdpar",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weirdpar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/client/particle/WeirdparParticle.java",
+          "src/main/resources/assets/scb/particles/weirdpar.json"
+        ]
+      }
+    },
+    {
+      "name": "Partickleupdate",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partickleupdate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/procedures/PartickleupdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Panickedspirit",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panickedspirit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/procedures/PanickedspiritProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpookyAdvantage",
+      "type": "potioneffect",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spooky_advantage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/potion/SpookyAdvantageMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "SpookyAdvantageEffect",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spooky_advantage_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/procedures/SpookyAdvantageEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Messagebylook",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "messagebylook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/scbreforged/procedures/MessagebylookProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "breakmesong",
+      "files": [
+        "break_me"
+      ],
+      "category": "ambient",
+      "subtitle": "break me"
+    },
+    {
+      "name": "breakme_2",
+      "files": [
+        "breakme_2"
+      ],
+      "category": "ambient",
+      "subtitle": "break me..."
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "subtitles.breakmesong": "сломай меня",
+      "effect.scb.spirit_form_effect": "Охваченный паникой дух",
+      "block.scb.weird": "Спиртовой завод",
+      "effect.scb.spooky_advantage": "Жуткое преимущество",
+      "subtitles.breakme_2": "сломай меня..."
+    },
+    "it_it": {
+      "subtitles.breakmesong": "spezzami",
+      "effect.scb.spirit_form_effect": "Spirito in preda al panico",
+      "block.scb.weird": "Pianta dello spirito",
+      "effect.scb.spooky_advantage": "Vantaggio spettrale",
+      "subtitles.breakme_2": "spezzami..."
+    },
+    "en_us": {
+      "subtitles.breakmesong": "break me",
+      "effect.scb.spirit_form_effect": "Panicked spirit",
+      "block.scb.weird": "Spirit plant",
+      "effect.scb.spooky_advantage": "Spooky Advantage",
+      "subtitles.breakme_2": "break me..."
+    },
+    "es_es": {
+      "subtitles.breakmesong": "Rómpeme",
+      "effect.scb.spirit_form_effect": "Espíritu en pánico",
+      "block.scb.weird": "Planta espiritual",
+      "effect.scb.spooky_advantage": "Ventaja fantasmagórica",
+      "subtitles.breakme_2": "Rómpeme...."
+    },
+    "fr_fr": {
+      "subtitles.breakmesong": "casse-moi",
+      "effect.scb.spirit_form_effect": "Esprit paniqué",
+      "block.scb.weird": "Plante spirituelle",
+      "effect.scb.spooky_advantage": "Avantage effrayant",
+      "subtitles.breakme_2": "casse-moi..."
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "scb",
+    "modName": "Spiritual Come Back (SCB)",
+    "version": "1.0",
+    "description": "Back for your things or your grave without taking too much risk with the Spirit form!",
+    "author": "kyleabiel1",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "diseno_sin_titulo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.scbreforged",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

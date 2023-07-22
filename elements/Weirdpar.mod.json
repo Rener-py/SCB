@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "particle",
+  "definition": {
+    "texture": "pardead1.png",
+    "animate": true,
+    "frameDuration": 10,
+    "width": 0.19999999999999998,
+    "height": 0.19999999999999998,
+    "scale": 2.0,
+    "speedFactor": 0.01,
+    "gravity": 0.098,
+    "maxAge": 20,
+    "maxAgeDiff": 5,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "OPAQUE"
+  }
+}

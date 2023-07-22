@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "scb:blocks/dp_animated",
+    "particle": "scb:blocks/dp3"
+  },
+  "render_type": "cutout"
+}

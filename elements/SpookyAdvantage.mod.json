@@ -1,0 +1,20 @@
+{
+  "_fv": 43,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Spooky Advantage",
+    "icon": "spookiadvantage.png",
+    "color": {
+      "value": -509839,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "SpookyAdvantageEffect"
+    }
+  }
+}
