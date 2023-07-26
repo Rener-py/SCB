@@ -28,6 +28,6 @@ public class PanickedspiritProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-			_entity.addEffect(new MobEffectInstance(ScbModMobEffects.SPIRIT_FORM_EFFECT.get(), 1200, 0, false, true));
+			_entity.addEffect(new MobEffectInstance(ScbModMobEffects.PANICKED_SPIRIT.get(), 1200, 0, false, true));
 	}
 }

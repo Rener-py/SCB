@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "scb:items/dp_animated_item"
+    "layer0": "scb:items/spiritplant_new_item"
   }
 }

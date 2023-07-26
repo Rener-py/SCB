@@ -32,28 +32,36 @@ public class WeirdparParticle extends TextureSheetParticle {
 
 	private final SpriteSet spriteSet;
 
+	private float angularVelocity;
+	private float angularAcceleration;
+
 	protected WeirdparParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
 		this.quadSize *= 2f;
-		this.lifetime = (int) Math.max(1, 20 + (this.random.nextInt(10) - 5));
-		this.gravity = 0.098f;
-		this.hasPhysics = true;
+		this.lifetime = (int) Math.max(1, 40 + (this.random.nextInt(40) - 20));
+		this.gravity = 3f;
+		this.hasPhysics = false;
 		this.xd = vx * 0.01;
 		this.yd = vy * 0.01;
 		this.zd = vz * 0.01;
+		this.angularVelocity = 0.01f;
+		this.angularAcceleration = 0f;
 		this.setSpriteFromAge(spriteSet);
 	}
 
 	@Override
 	public ParticleRenderType getRenderType() {
-		return ParticleRenderType.PARTICLE_SHEET_OPAQUE;
+		return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
 	}
 
 	@Override
 	public void tick() {
 		super.tick();
+		this.oRoll = this.roll;
+		this.roll += this.angularVelocity;
+		this.angularVelocity += this.angularAcceleration;
 		if (!this.removed) {
 			this.setSprite(this.spriteSet.get((this.age / 10) % 6 + 1, 6));
 		}

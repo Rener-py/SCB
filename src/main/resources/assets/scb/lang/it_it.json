@@ -1,7 +1,12 @@
 {
-  "subtitles.breakmesong": "spezzami",
-  "effect.scb.spirit_form_effect": "Spirito in preda al panico",
+  "item.scb.spiritual_armor_chestplate": "Corazza dell\u0027armatura spirituale",
+  "item.scb.spiritual_armor_helmet": "Elmo dell\u0027armatura spirituale",
+  "subtitles.breakmesong": "Spezzami",
+  "effect.scb.panicked_spirit": "Spirito in preda al panico",
+  "item.scb.spiritual_armor_boots": "Stivali dell\u0027armatura spirituale",
+  "effect.scb.spiritual_defense": "Difesa spirituale",
   "block.scb.weird": "Pianta dello spirito",
   "effect.scb.spooky_advantage": "Vantaggio spettrale",
-  "subtitles.breakme_2": "spezzami..."
+  "subtitles.breakme_2": "spezzami...",
+  "subtitles.equip_spirit_armor": ""
 }

@@ -3,18 +3,18 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "dp_animated",
+    "texture": "spiritplant_new",
     "textureBottom": "",
     "customModelName": "Cross model",
-    "itemTexture": "dp_animated_item",
-    "particleTexture": "dp3",
+    "itemTexture": "spiritplant_new_item",
+    "particleTexture": "par2",
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
-    "growapableSpawnType": "Plains",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
     "customBoundingBox": false,
@@ -32,13 +32,13 @@
     ],
     "name": "Spirit plant",
     "specialInfo": [
-      "You better stay away from this plant..."
+      "A spiritual plant that cleanses the spiritual state and could heal or uplift you..."
     ],
     "creativeTab": {
       "value": "DECORATIONS"
     },
     "hardness": 0.0,
-    "resistance": 100.0,
+    "resistance": 1000.0,
     "luminance": 3,
     "unbreakable": false,
     "isSolid": false,
@@ -67,9 +67,9 @@
     },
     "dropAmount": 1,
     "forceTicking": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "hasTileEntity": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -80,7 +80,17 @@
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [],
+    "canBePlacedOn": [
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      }
+    ],
     "isBonemealable": false,
     "frequencyOnChunks": 1,
     "spawnWorldTypes": [],

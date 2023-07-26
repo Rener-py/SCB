@@ -1,0 +1,72 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "spiritual_armor_test_head",
+    "enableBody": true,
+    "textureBody": "spiritual_armor_test_body",
+    "enableLeggings": false,
+    "textureLeggings": "spiritual_armor_test_leggings",
+    "enableBoots": true,
+    "textureBoots": "spiritual_armor_test_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "spiritual_armor_test",
+    "helmetName": "Spiritual Armor Helmet",
+    "bodyName": "Spiritual Armor Chestplate",
+    "leggingsName": "Spiritual Armor Leggings",
+    "bootsName": "Spiritual Armor Boots",
+    "helmetSpecialInfo": [
+      "A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane."
+    ],
+    "bodySpecialInfo": [
+      "A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane."
+    ],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [
+      "A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane."
+    ],
+    "helmetModelName": "Modelcustom_model_2",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "armor1_model3.png",
+    "bodyModelName": "Modelcustom_model_2",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "armor1_model3.png",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modelcustom_model_2",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "armor1_model3.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 7,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "CUSTOM:equip_spirit_armor"
+    },
+    "repairItems": []
+  }
+}

@@ -54,13 +54,13 @@ public class CleaneffectproximityProcedure {
 		}
 		if (found == true) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.removeEffect(ScbModMobEffects.SPIRIT_FORM_EFFECT.get());
+				_entity.removeEffect(ScbModMobEffects.PANICKED_SPIRIT.get());
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeEffect(MobEffects.MOVEMENT_SPEED);
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeEffect(MobEffects.SLOW_FALLING);
 			if (entity instanceof LivingEntity _entity)
-				_entity.removeEffect(MobEffects.INVISIBILITY);
+				_entity.removeEffect(ScbModMobEffects.SPIRITUAL_DEFENSE.get());
 		}
 	}
 }

@@ -1,7 +1,12 @@
 {
+  "item.scb.spiritual_armor_chestplate": "Pansière d\u0027armure spirituelle",
+  "item.scb.spiritual_armor_helmet": "Casque d\u0027armure spirituelle",
   "subtitles.breakmesong": "casse-moi",
-  "effect.scb.spirit_form_effect": "Esprit paniqué",
+  "effect.scb.panicked_spirit": "Esprit paniqué",
+  "item.scb.spiritual_armor_boots": "Bottes d\u0027armure spirituelle",
+  "effect.scb.spiritual_defense": "Défense spirituelle",
   "block.scb.weird": "Plante spirituelle",
   "effect.scb.spooky_advantage": "Avantage effrayant",
-  "subtitles.breakme_2": "casse-moi..."
+  "subtitles.breakme_2": "casse-moi...",
+  "subtitles.equip_spirit_armor": ""
 }

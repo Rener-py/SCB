@@ -1,7 +1,12 @@
 {
+  "item.scb.spiritual_armor_chestplate": "Peto de armadura espiritual",
+  "item.scb.spiritual_armor_helmet": "Casco de armadura espiritual",
   "subtitles.breakmesong": "Rómpeme",
-  "effect.scb.spirit_form_effect": "Espíritu en pánico",
+  "effect.scb.panicked_spirit": "Espíritu en pánico",
+  "item.scb.spiritual_armor_boots": "Botas de armadura espiritual",
+  "effect.scb.spiritual_defense": "Defensa espiritual",
   "block.scb.weird": "Planta espiritual",
   "effect.scb.spooky_advantage": "Ventaja fantasmagórica",
-  "subtitles.breakme_2": "Rómpeme...."
+  "subtitles.breakme_2": "Rómpeme....",
+  "subtitles.equip_spirit_armor": ""
 }

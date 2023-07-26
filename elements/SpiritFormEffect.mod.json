@@ -5,7 +5,7 @@
     "effectName": "Panicked spirit",
     "icon": "panicked_spirit_effect.png",
     "color": {
-      "value": -16724788,
+      "value": -14636138,
       "falpha": 0.0
     },
     "isInstant": false,
@@ -15,6 +15,9 @@
     "renderStatusInHUD": true,
     "onStarted": {
       "name": "SpiritFormRespawn"
+    },
+    "onExpired": {
+      "name": "SpiritFormEffectEffectExpires"
     }
   }
 }

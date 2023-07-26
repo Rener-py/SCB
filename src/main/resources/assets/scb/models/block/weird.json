@@ -1,8 +1,8 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "scb:blocks/dp_animated",
-    "particle": "scb:blocks/dp3"
+    "cross": "scb:blocks/spiritplant_new",
+    "particle": "scb:blocks/par2"
   },
   "render_type": "cutout"
 }

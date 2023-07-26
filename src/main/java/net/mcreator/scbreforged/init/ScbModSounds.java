@@ -17,4 +17,5 @@ public class ScbModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, ScbMod.MODID);
 	public static final RegistryObject<SoundEvent> BREAKMESONG = REGISTRY.register("breakmesong", () -> new SoundEvent(new ResourceLocation("scb", "breakmesong")));
 	public static final RegistryObject<SoundEvent> BREAKME_2 = REGISTRY.register("breakme_2", () -> new SoundEvent(new ResourceLocation("scb", "breakme_2")));
+	public static final RegistryObject<SoundEvent> EQUIP_SPIRIT_ARMOR = REGISTRY.register("equip_spirit_armor", () -> new SoundEvent(new ResourceLocation("scb", "equip_spirit_armor")));
 }

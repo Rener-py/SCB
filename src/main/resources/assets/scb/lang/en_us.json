@@ -1,7 +1,12 @@
 {
+  "item.scb.spiritual_armor_chestplate": "Spiritual Armor Chestplate",
+  "item.scb.spiritual_armor_helmet": "Spiritual Armor Helmet",
   "subtitles.breakmesong": "break me",
-  "effect.scb.spirit_form_effect": "Panicked spirit",
+  "effect.scb.panicked_spirit": "Panicked spirit",
+  "item.scb.spiritual_armor_boots": "Spiritual Armor Boots",
+  "effect.scb.spiritual_defense": "Spiritual Defense",
   "block.scb.weird": "Spirit plant",
   "effect.scb.spooky_advantage": "Spooky Advantage",
-  "subtitles.breakme_2": "break me..."
+  "subtitles.breakme_2": "Break me...",
+  "subtitles.equip_spirit_armor": ""
 }

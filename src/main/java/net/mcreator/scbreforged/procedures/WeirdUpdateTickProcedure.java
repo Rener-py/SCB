@@ -45,12 +45,12 @@ public class WeirdUpdateTickProcedure {
 			if (Math.random() < 0.5) {
 				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 					_entity.addEffect(new MobEffectInstance(ScbModMobEffects.SPOOKY_ADVANTAGE.get(), 300, 0, false, true));
-			} else if (Math.random() < 0.08) {
+			} else if (Math.random() < 0.09) {
 				{
 					Entity _ent = entity;
-					_ent.teleportTo(x, (y + 15), z);
+					_ent.teleportTo(x, (y + 13), z);
 					if (_ent instanceof ServerPlayer _serverPlayer)
-						_serverPlayer.connection.teleport(x, (y + 15), z, _ent.getYRot(), _ent.getXRot());
+						_serverPlayer.connection.teleport(x, (y + 13), z, _ent.getYRot(), _ent.getXRot());
 				}
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {

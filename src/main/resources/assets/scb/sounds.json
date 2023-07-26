@@ -16,5 +16,13 @@
         "stream": false
       }
     ]
+  },
+  "equip_spirit_armor": {
+    "sounds": [
+      {
+        "name": "scb:equip_spirit_armor",
+        "stream": false
+      }
+    ]
   }
 }

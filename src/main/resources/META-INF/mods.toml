@@ -20,5 +20,23 @@ description="Back for your things or your grave without taking too much risk wit
     side="BOTH"
 
 
+[[dependencies.scb]]
+    modId="kleiders_custom_renderer"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
+[[dependencies.scb]]
+    modId="kleidersplayerrenderer"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.scb]]
+    modId="kleiders_custom_renderer"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

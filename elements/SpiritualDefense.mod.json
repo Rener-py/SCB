@@ -1,0 +1,26 @@
+{
+  "_fv": 43,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Spiritual Defense",
+    "icon": "spiritual_defense.png",
+    "color": {
+      "value": -16207752,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "Whenplayerindanger"
+    },
+    "onActiveTick": {
+      "name": "SpiritualDefenseOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "SpiritFormEffectEffectExpires"
+    }
+  }
+}

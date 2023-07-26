@@ -31,7 +31,7 @@ public class DeadblockProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player) {
-			world.setBlock(new BlockPos(x + 2, y, z), ScbModBlocks.WEIRD.get().defaultBlockState(), 3);
+			world.setBlock(new BlockPos(x, y + 1, z), ScbModBlocks.WEIRD.get().defaultBlockState(), 3);
 		}
 	}
 }

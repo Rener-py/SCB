@@ -12,8 +12,6 @@ public class SpiritFormRespawnProcedure {
 		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1200, 1, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, 1200, 3, false, false));
-		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 1200, 1, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 1200, 0, false, false));
 	}
 }

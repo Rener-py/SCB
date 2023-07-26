@@ -7,20 +7,27 @@ import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 
 import net.mcreator.scbreforged.procedures.SpiritFormRespawnProcedure;
+import net.mcreator.scbreforged.procedures.SpiritFormEffectEffectExpiresProcedure;
 
 public class SpiritFormEffectMobEffect extends MobEffect {
 	public SpiritFormEffectMobEffect() {
-		super(MobEffectCategory.NEUTRAL, -16724788);
+		super(MobEffectCategory.NEUTRAL, -14636138);
 	}
 
 	@Override
 	public String getDescriptionId() {
-		return "effect.scb.spirit_form_effect";
+		return "effect.scb.panicked_spirit";
 	}
 
 	@Override
 	public void addAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
 		SpiritFormRespawnProcedure.execute(entity);
+	}
+
+	@Override
+	public void removeAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
+		super.removeAttributeModifiers(entity, attributeMap, amplifier);
+		SpiritFormEffectEffectExpiresProcedure.execute(entity);
 	}
 
 	@Override

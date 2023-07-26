@@ -1,7 +1,12 @@
 {
+  "item.scb.spiritual_armor_chestplate": "Нагрудник духовной брони",
+  "item.scb.spiritual_armor_helmet": "Шлем духовной брони",
   "subtitles.breakmesong": "сломай меня",
-  "effect.scb.spirit_form_effect": "Охваченный паникой дух",
+  "effect.scb.panicked_spirit": "Охваченный паникой дух",
+  "item.scb.spiritual_armor_boots": "Сапоги в духовной броне",
+  "effect.scb.spiritual_defense": "Духовная защита",
   "block.scb.weird": "Спиртовой завод",
   "effect.scb.spooky_advantage": "Жуткое преимущество",
-  "subtitles.breakme_2": "сломай меня..."
+  "subtitles.breakme_2": "сломай меня...",
+  "subtitles.equip_spirit_armor": ""
 }
