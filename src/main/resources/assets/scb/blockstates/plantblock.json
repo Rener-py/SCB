@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "scb:block/weird"
+      "model": "scb:block/plantblock"
     }
   }
 }

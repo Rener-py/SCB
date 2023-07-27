@@ -11,10 +11,10 @@
     "speedFactor": 0.01,
     "gravity": 3.0,
     "maxAge": 40,
-    "maxAgeDiff": 20,
+    "maxAgeDiff": 30,
     "angularVelocity": 0.01,
     "angularAcceleration": 0.0,
-    "canCollide": false,
+    "canCollide": true,
     "alwaysShow": true,
     "renderType": "TRANSLUCENT"
   }

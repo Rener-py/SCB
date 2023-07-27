@@ -43,7 +43,7 @@ public class CleaneffectproximityProcedure {
 			for (int index1 = 0; index1 < 8; index1++) {
 				sz = -3;
 				for (int index2 = 0; index2 < 8; index2++) {
-					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == ScbModBlocks.WEIRD.get()) {
+					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == ScbModBlocks.PLANTBLOCK.get()) {
 						found = true;
 					}
 					sz = sz + 1;

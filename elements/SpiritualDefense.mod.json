@@ -16,9 +16,6 @@
     "onStarted": {
       "name": "Whenplayerindanger"
     },
-    "onActiveTick": {
-      "name": "SpiritualDefenseOnEffectActiveTick"
-    },
     "onExpired": {
       "name": "SpiritFormEffectEffectExpires"
     }

@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "I'm a ghost?",
-    "achievementDescription": "Panicked spirit",
+    "achievementDescription": "Spawn with the spirit form for the first time",
     "achievementIcon": {
       "value": "CUSTOM:AD1"
     },

@@ -107,7 +107,7 @@ public abstract class SpiritualArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "scb:textures/entities/armor1_model3.png";
+			return "scb:textures/entities/armor1_model4.png";
 		}
 	}
 
@@ -142,7 +142,7 @@ public abstract class SpiritualArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "scb:textures/entities/armor1_model3.png";
+			return "scb:textures/entities/armor1_model4.png";
 		}
 	}
 
@@ -178,7 +178,7 @@ public abstract class SpiritualArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "scb:textures/entities/armor1_model3.png";
+			return "scb:textures/entities/armor1_model4.png";
 		}
 	}
 }

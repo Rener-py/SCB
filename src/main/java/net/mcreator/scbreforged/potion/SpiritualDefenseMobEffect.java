@@ -7,7 +7,6 @@ import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 
 import net.mcreator.scbreforged.procedures.WhenplayerindangerProcedure;
-import net.mcreator.scbreforged.procedures.SpiritualDefenseOnEffectActiveTickProcedure;
 import net.mcreator.scbreforged.procedures.SpiritFormEffectEffectExpiresProcedure;
 
 public class SpiritualDefenseMobEffect extends MobEffect {
@@ -23,11 +22,6 @@ public class SpiritualDefenseMobEffect extends MobEffect {
 	@Override
 	public void addAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
 		WhenplayerindangerProcedure.execute(entity);
-	}
-
-	@Override
-	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		SpiritualDefenseOnEffectActiveTickProcedure.execute(entity);
 	}
 
 	@Override

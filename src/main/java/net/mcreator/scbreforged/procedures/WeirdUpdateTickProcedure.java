@@ -40,7 +40,7 @@ public class WeirdUpdateTickProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == ScbModBlocks.WEIRD.get()) {
+		if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == ScbModBlocks.PLANTBLOCK.get()) {
 			world.destroyBlock(new BlockPos(x, y, z), false);
 			if (Math.random() < 0.5) {
 				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())

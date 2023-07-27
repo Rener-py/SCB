@@ -40,9 +40,9 @@ public class WeirdparParticle extends TextureSheetParticle {
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
 		this.quadSize *= 2f;
-		this.lifetime = (int) Math.max(1, 40 + (this.random.nextInt(40) - 20));
+		this.lifetime = (int) Math.max(1, 40 + (this.random.nextInt(60) - 30));
 		this.gravity = 3f;
-		this.hasPhysics = false;
+		this.hasPhysics = true;
 		this.xd = vx * 0.01;
 		this.yd = vy * 0.01;
 		this.zd = vz * 0.01;
