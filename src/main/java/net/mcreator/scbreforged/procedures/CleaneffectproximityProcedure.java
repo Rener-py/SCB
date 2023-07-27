@@ -38,11 +38,11 @@ public class CleaneffectproximityProcedure {
 		double sz = 0;
 		sx = -3;
 		found = false;
-		for (int index0 = 0; index0 < 6; index0++) {
+		for (int index0 = 0; index0 < 8; index0++) {
 			sy = -3;
-			for (int index1 = 0; index1 < 6; index1++) {
+			for (int index1 = 0; index1 < 8; index1++) {
 				sz = -3;
-				for (int index2 = 0; index2 < 6; index2++) {
+				for (int index2 = 0; index2 < 8; index2++) {
 					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == ScbModBlocks.WEIRD.get()) {
 						found = true;
 					}

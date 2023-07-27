@@ -1,12 +1,22 @@
 {
-  "item.scb.spiritual_armor_chestplate": "Peto de armadura espiritual",
+  "item.scb.spiritual_armor_chestplate.descr": "Una pieza de armadura traída del más allá... Será destruida tan pronto como toque el plano exterior.",
+  "item.scb.ad_2": "AD2",
+  "item.scb.ad_1": "AD1",
   "item.scb.spiritual_armor_helmet": "Casco de armadura espiritual",
-  "subtitles.breakmesong": "Rómpeme",
+  "advancements.adv_1.title": "Espíritu en pánico",
+  "item.scb.spiritual_armor_helmet.descr": "Una pieza de armadura traída del más allá... Será destruida tan pronto como toque el plano exterior.",
+  "subtitles.breakmesong": "",
   "effect.scb.panicked_spirit": "Espíritu en pánico",
-  "item.scb.spiritual_armor_boots": "Botas de armadura espiritual",
   "effect.scb.spiritual_defense": "Defensa espiritual",
+  "advancements.adv_2.descr": "Protección desde el más allá",
+  "subtitles.equip_spirit_armor": "",
+  "advancements.adv_2.title": "Defensa espiritual",
+  "item.scb.spiritual_armor_boots.descr": "Una pieza de armadura traída del más allá... Será destruida tan pronto como toque el plano exterior.",
+  "item.scb.spiritual_armor_chestplate": "Peto de armadura espiritual",
+  "advancements.adv_1.descr": "Soy un fantasma?",
+  "item.scb.spiritual_armor_boots": "Botas de armadura espiritual",
   "block.scb.weird": "Planta espiritual",
+  "subtitles.breakme_2": "",
   "effect.scb.spooky_advantage": "Ventaja fantasmagórica",
-  "subtitles.breakme_2": "Rómpeme....",
-  "subtitles.equip_spirit_armor": ""
+  "block.scb.weird.descr": "Una planta espiritual que limpia el estado espiritual y podría curarte o elevarte... Asegúrate de plantarla y romperla."
 }

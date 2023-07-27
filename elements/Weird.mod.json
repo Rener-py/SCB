@@ -32,7 +32,7 @@
     ],
     "name": "Spirit plant",
     "specialInfo": [
-      "A spiritual plant that cleanses the spiritual state and could heal or uplift you..."
+      "block.scb.weird.descr"
     ],
     "creativeTab": {
       "value": "DECORATIONS"

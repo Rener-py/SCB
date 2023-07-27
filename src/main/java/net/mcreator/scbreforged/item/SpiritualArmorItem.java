@@ -102,7 +102,7 @@ public abstract class SpiritualArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.translatable("A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane."));
+			list.add(Component.translatable("item.scb.spiritual_armor_helmet.descr"));
 		}
 
 		@Override
@@ -137,7 +137,7 @@ public abstract class SpiritualArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.translatable("A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane."));
+			list.add(Component.translatable("item.scb.spiritual_armor_chestplate.descr"));
 		}
 
 		@Override
@@ -173,7 +173,7 @@ public abstract class SpiritualArmorItem extends ArmorItem {
 		@Override
 		public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 			super.appendHoverText(itemstack, world, list, flag);
-			list.add(Component.translatable("A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane."));
+			list.add(Component.translatable("item.scb.spiritual_armor_boots.descr"));
 		}
 
 		@Override

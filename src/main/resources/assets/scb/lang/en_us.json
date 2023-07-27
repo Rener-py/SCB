@@ -1,12 +1,22 @@
 {
-  "item.scb.spiritual_armor_chestplate": "Spiritual Armor Chestplate",
+  "item.scb.spiritual_armor_chestplate.descr": "A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane.",
+  "item.scb.ad_2": "AD2",
+  "item.scb.ad_1": "AD1",
   "item.scb.spiritual_armor_helmet": "Spiritual Armor Helmet",
-  "subtitles.breakmesong": "break me",
+  "advancements.adv_1.title": "I\u0027m a ghost?",
+  "item.scb.spiritual_armor_helmet.descr": "A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane.",
+  "subtitles.breakmesong": "",
   "effect.scb.panicked_spirit": "Panicked spirit",
-  "item.scb.spiritual_armor_boots": "Spiritual Armor Boots",
   "effect.scb.spiritual_defense": "Spiritual Defense",
+  "advancements.adv_2.descr": "Spiritual Defense",
+  "subtitles.equip_spirit_armor": "",
+  "advancements.adv_2.title": "Protection from the afterlife",
+  "item.scb.spiritual_armor_boots.descr": "A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane.",
+  "item.scb.spiritual_armor_chestplate": "Spiritual Armor Chestplate",
+  "advancements.adv_1.descr": "Panicked spirit",
+  "item.scb.spiritual_armor_boots": "Spiritual Armor Boots",
   "block.scb.weird": "Spirit plant",
+  "subtitles.breakme_2": "",
   "effect.scb.spooky_advantage": "Spooky Advantage",
-  "subtitles.breakme_2": "Break me...",
-  "subtitles.equip_spirit_armor": ""
+  "block.scb.weird.descr": "A spiritual plant that cleanses the spiritual state and could heal or uplift you... Make sure to plant and break it."
 }

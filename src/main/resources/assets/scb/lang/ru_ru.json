@@ -1,12 +1,22 @@
 {
-  "item.scb.spiritual_armor_chestplate": "Нагрудник духовной брони",
+  "item.scb.spiritual_armor_chestplate.descr": "Часть доспехов, привезенная из-за пределов... Он будет уничтожен, как только коснется внешнего плана.",
+  "item.scb.ad_2": "AD2",
+  "item.scb.ad_1": "AD1",
   "item.scb.spiritual_armor_helmet": "Шлем духовной брони",
-  "subtitles.breakmesong": "сломай меня",
+  "advancements.adv_1.title": "Охваченный паникой дух",
+  "item.scb.spiritual_armor_helmet.descr": "Часть доспехов, привезенная из-за пределов... Он будет уничтожен, как только коснется внешнего плана.",
+  "subtitles.breakmesong": "",
   "effect.scb.panicked_spirit": "Охваченный паникой дух",
-  "item.scb.spiritual_armor_boots": "Сапоги в духовной броне",
   "effect.scb.spiritual_defense": "Духовная защита",
+  "advancements.adv_2.descr": "Защита от загробной жизни",
+  "subtitles.equip_spirit_armor": "",
+  "advancements.adv_2.title": "Духовная защита",
+  "item.scb.spiritual_armor_boots.descr": "Часть доспехов, привезенная из-за пределов... Он будет уничтожен, как только коснется внешнего плана.",
+  "item.scb.spiritual_armor_chestplate": "Нагрудник духовной брони",
+  "advancements.adv_1.descr": "Я призрак?",
+  "item.scb.spiritual_armor_boots": "Сапоги в духовной броне",
   "block.scb.weird": "Спиртовой завод",
+  "subtitles.breakme_2": "",
   "effect.scb.spooky_advantage": "Жуткое преимущество",
-  "subtitles.breakme_2": "сломай меня...",
-  "subtitles.equip_spirit_armor": ""
+  "block.scb.weird.descr": "Духовное растение, которое очищает духовное состояние и может исцелить или возвысить тебя... Убедись в этом и сломай его."
 }

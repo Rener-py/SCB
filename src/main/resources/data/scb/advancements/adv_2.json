@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "scb:ad_2"
+    },
+    "title": {
+      "translate": "advancements.adv_2.title"
+    },
+    "description": {
+      "translate": "advancements.adv_2.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adv_2": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "scb:adv_1"
+}

@@ -1,12 +1,22 @@
 {
-  "item.scb.spiritual_armor_chestplate": "Corazza dell\u0027armatura spirituale",
+  "item.scb.spiritual_armor_chestplate.descr": "",
+  "item.scb.ad_2": "AD2",
+  "item.scb.ad_1": "AD1",
   "item.scb.spiritual_armor_helmet": "Elmo dell\u0027armatura spirituale",
+  "advancements.adv_1.title": "Panicked Spirit",
   "subtitles.breakmesong": "Spezzami",
   "effect.scb.panicked_spirit": "Spirito in preda al panico",
-  "item.scb.spiritual_armor_boots": "Stivali dell\u0027armatura spirituale",
+  "item.scb.spiritual_armor_helmet.descr": "",
   "effect.scb.spiritual_defense": "Difesa spirituale",
+  "advancements.adv_2.descr": "Protection from the afterlife",
+  "subtitles.equip_spirit_armor": "",
+  "advancements.adv_2.title": "Spiritual protection",
+  "item.scb.spiritual_armor_boots.descr": "",
+  "item.scb.spiritual_armor_chestplate": "Corazza dell\u0027armatura spirituale",
+  "advancements.adv_1.descr": "I\u0027m a ghost?",
+  "item.scb.spiritual_armor_boots": "Stivali dell\u0027armatura spirituale",
   "block.scb.weird": "Pianta dello spirito",
-  "effect.scb.spooky_advantage": "Vantaggio spettrale",
   "subtitles.breakme_2": "spezzami...",
-  "subtitles.equip_spirit_armor": ""
+  "effect.scb.spooky_advantage": "Vantaggio spettrale",
+  "block.scb.weird.descr": ""
 }

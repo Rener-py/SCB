@@ -19,14 +19,14 @@
     "leggingsName": "Spiritual Armor Leggings",
     "bootsName": "Spiritual Armor Boots",
     "helmetSpecialInfo": [
-      "A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane."
+      "item.scb.spiritual_armor_helmet.descr"
     ],
     "bodySpecialInfo": [
-      "A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane."
+      "item.scb.spiritual_armor_chestplate.descr"
     ],
     "leggingsSpecialInfo": [],
     "bootsSpecialInfo": [
-      "A piece of armor brought from beyond... It will be destroyed as soon as it touches the outer plane."
+      "item.scb.spiritual_armor_boots.descr"
     ],
     "helmetModelName": "Modelcustom_model_2",
     "helmetModelPart": "Head",
