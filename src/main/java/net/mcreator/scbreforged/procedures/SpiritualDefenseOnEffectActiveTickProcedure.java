@@ -10,7 +10,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.scbreforged.init.ScbModItems;
-import net.mcreator.scbreforged.init.ScbModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -29,8 +28,7 @@ public class SpiritualDefenseOnEffectActiveTickProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player && entity.isAlive()) {
-			if (itemstack.getItem() == ScbModItems.SPIRITUAL_ARMOR_HELMET.get() || itemstack.getItem() == ScbModItems.SPIRITUAL_ARMOR_CHESTPLATE.get() || itemstack.getItem() == ScbModItems.SPIRITUAL_ARMOR_BOOTS.get()
-					|| itemstack.getItem() == ScbModBlocks.PLANTBLOCK.get().asItem()) {
+			if (itemstack.getItem() == ScbModItems.SPIRITUAL_ARMOR_HELMET.get() || itemstack.getItem() == ScbModItems.SPIRITUAL_ARMOR_CHESTPLATE.get() || itemstack.getItem() == ScbModItems.SPIRITUAL_ARMOR_BOOTS.get()) {
 				if (event != null && event.isCancelable()) {
 					event.setCanceled(true);
 				}

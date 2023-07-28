@@ -460,6 +460,20 @@
           "src/main/java/net/mcreator/scbreforged/client/particle/SpiritarmorParticleParticle.java"
         ]
       }
+    },
+    {
+      "name": "Plantparticle",
+      "type": "particle",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plantparticle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scb/particles/plantparticle.json",
+          "src/main/java/net/mcreator/scbreforged/client/particle/PlantparticleParticle.java"
+        ]
+      }
     }
   ],
   "variable_elements": [

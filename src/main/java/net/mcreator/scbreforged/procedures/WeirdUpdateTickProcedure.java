@@ -45,7 +45,7 @@ public class WeirdUpdateTickProcedure {
 			if (Math.random() < 0.5) {
 				if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 					_entity.addEffect(new MobEffectInstance(ScbModMobEffects.SPOOKY_ADVANTAGE.get(), 300, 0, false, true));
-			} else if (Math.random() < 0.09) {
+			} else if (Math.random() < 0.05) {
 				{
 					Entity _ent = entity;
 					_ent.teleportTo(x, (y + 13), z);

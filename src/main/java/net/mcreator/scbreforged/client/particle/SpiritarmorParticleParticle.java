@@ -32,35 +32,27 @@ public class SpiritarmorParticleParticle extends TextureSheetParticle {
 
 	private final SpriteSet spriteSet;
 
-	private float angularVelocity;
-	private float angularAcceleration;
-
 	protected SpiritarmorParticleParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
-		this.setSize(0.3f, 0.3f);
-		this.quadSize *= 2f;
-		this.lifetime = (int) Math.max(1, 40 + (this.random.nextInt(60) - 30));
-		this.gravity = 1f;
+		this.setSize(0.2f, 0.2f);
+
+		this.lifetime = (int) Math.max(1, 5 + (this.random.nextInt(4) - 2));
+		this.gravity = -1f;
 		this.hasPhysics = true;
-		this.xd = vx * 0.01;
-		this.yd = vy * 0.01;
-		this.zd = vz * 0.01;
-		this.angularVelocity = 0.01f;
-		this.angularAcceleration = 0f;
+		this.xd = vx * 0;
+		this.yd = vy * 0;
+		this.zd = vz * 0;
 		this.pickSprite(spriteSet);
 	}
 
 	@Override
 	public ParticleRenderType getRenderType() {
-		return ParticleRenderType.PARTICLE_SHEET_OPAQUE;
+		return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
 	}
 
 	@Override
 	public void tick() {
 		super.tick();
-		this.oRoll = this.roll;
-		this.roll += this.angularVelocity;
-		this.angularVelocity += this.angularAcceleration;
 	}
 }
