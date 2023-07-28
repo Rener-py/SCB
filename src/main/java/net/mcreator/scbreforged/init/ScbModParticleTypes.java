@@ -16,4 +16,5 @@ import net.mcreator.scbreforged.ScbMod;
 public class ScbModParticleTypes {
 	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, ScbMod.MODID);
 	public static final RegistryObject<SimpleParticleType> WEIRDPAR = REGISTRY.register("weirdpar", () -> new SimpleParticleType(true));
+	public static final RegistryObject<SimpleParticleType> SPIRITARMOR_PARTICLE = REGISTRY.register("spiritarmor_particle", () -> new SimpleParticleType(true));
 }

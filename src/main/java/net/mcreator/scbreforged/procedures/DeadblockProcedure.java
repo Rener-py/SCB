@@ -7,6 +7,7 @@ import net.minecraftforge.event.entity.living.LivingDeathEvent;
 
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -38,7 +39,22 @@ public class DeadblockProcedure {
 			return;
 		if (entity instanceof Player && ScbModBlocks.PLANTBLOCK.get().defaultBlockState().canSurvive(world, new BlockPos(x, y, z))) {
 			{
-				BlockPos _bp = new BlockPos(x, y + 4, z);
+				BlockPos _pos = new BlockPos(x, y + 2, z);
+				Block.dropResources(world.getBlockState(_pos), world, new BlockPos(x, y, z), null);
+				world.destroyBlock(_pos, false);
+			}
+			{
+				BlockPos _pos = new BlockPos(x, y + 3, z);
+				Block.dropResources(world.getBlockState(_pos), world, new BlockPos(x, y, z), null);
+				world.destroyBlock(_pos, false);
+			}
+			{
+				BlockPos _pos = new BlockPos(x, y + 4, z);
+				Block.dropResources(world.getBlockState(_pos), world, new BlockPos(x, y, z), null);
+				world.destroyBlock(_pos, false);
+			}
+			{
+				BlockPos _bp = new BlockPos(x, y + 5, z);
 				BlockState _bs = ScbModBlocks.PLANTBLOCK.get().defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
 				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

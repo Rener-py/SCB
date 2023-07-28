@@ -4,13 +4,13 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="scb"
-version="1.0"
+version="1.3"
 displayName="Spiritual Come Back (SCB)"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
 authors="kyleabiel1"
-description="Back for your things or your grave without taking too much risk with the Spirit form!"
+description="Spiritual Come Back is a mod that allows you to return for your loot or your grave without taking too much risk along the way with the Spirit form! "
 
 [[dependencies.scb]]
     modId="minecraft"

@@ -446,6 +446,20 @@
           "src/main/resources/assets/scb/blockstates/plantblock.json"
         ]
       }
+    },
+    {
+      "name": "SpiritarmorParticle",
+      "type": "particle",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiritarmor_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/scb/particles/spiritarmor_particle.json",
+          "src/main/java/net/mcreator/scbreforged/client/particle/SpiritarmorParticleParticle.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -624,14 +638,14 @@
   "workspaceSettings": {
     "modid": "scb",
     "modName": "Spiritual Come Back (SCB)",
-    "version": "1.0",
-    "description": "Back for your things or your grave without taking too much risk with the Spirit form!",
+    "version": "1.3",
+    "description": "Spiritual Come Back is a mod that allows you to return for your loot or your grave without taking too much risk along the way with the Spirit form! ",
     "author": "kyleabiel1",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "diseno_sin_titulo",
+    "modPicture": "scb_title_photoshop",
     "requiredMods": [
       "kleiders_custom_renderer"
     ],

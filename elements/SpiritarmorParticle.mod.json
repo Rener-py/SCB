@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "particle",
+  "definition": {
+    "texture": "spiritarmorparticle.png",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.30000000000000004,
+    "height": 0.30000000000000004,
+    "scale": 2.0,
+    "speedFactor": 0.01,
+    "gravity": 1.0,
+    "maxAge": 40,
+    "maxAgeDiff": 30,
+    "angularVelocity": 0.01,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "renderType": "OPAQUE"
+  }
+}

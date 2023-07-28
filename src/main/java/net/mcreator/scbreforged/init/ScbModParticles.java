@@ -10,11 +10,13 @@ import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.scbreforged.client.particle.WeirdparParticle;
+import net.mcreator.scbreforged.client.particle.SpiritarmorParticleParticle;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ScbModParticles {
 	@SubscribeEvent
 	public static void registerParticles(RegisterParticleProvidersEvent event) {
 		event.register(ScbModParticleTypes.WEIRDPAR.get(), WeirdparParticle::provider);
+		event.register(ScbModParticleTypes.SPIRITARMOR_PARTICLE.get(), SpiritarmorParticleParticle::provider);
 	}
 }
