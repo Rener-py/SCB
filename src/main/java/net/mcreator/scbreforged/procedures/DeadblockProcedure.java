@@ -7,6 +7,7 @@ import net.minecraftforge.event.entity.living.LivingDeathEvent;
 
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
@@ -37,6 +38,10 @@ public class DeadblockProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		boolean found = false;
+		double sx = 0;
+		double sy = 0;
+		double sz = 0;
 		if (entity instanceof Player && ScbModBlocks.PLANTBLOCK.get().defaultBlockState().canSurvive(world, new BlockPos(x, y, z))) {
 			{
 				BlockPos _pos = new BlockPos(x, y + 2, z);
@@ -78,6 +83,22 @@ public class DeadblockProcedure {
 			if (entity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(ScbModItems.SPIRITUAL_ARMOR_BOOTS.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 45, _player.inventoryMenu.getCraftSlots());
+			}
+			if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == Blocks.DIRT_PATH || (world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == Blocks.FARMLAND) {
+				{
+					BlockPos _bp = new BlockPos(x, y, z);
+					BlockState _bs = Blocks.WARPED_PLANKS.defaultBlockState();
+					BlockState _bso = world.getBlockState(_bp);
+					for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+						Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+						if (_property != null && _bs.getValue(_property) != null)
+							try {
+								_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+							} catch (Exception e) {
+							}
+					}
+					world.setBlock(_bp, _bs, 3);
+				}
 			}
 		}
 	}

@@ -1,13 +1,4 @@
 {
-  "breakmesong": {
-    "subtitle": "subtitles.breakmesong",
-    "sounds": [
-      {
-        "name": "scb:break_me",
-        "stream": false
-      }
-    ]
-  },
   "breakme_2": {
     "subtitle": "subtitles.breakme_2",
     "sounds": [
@@ -21,6 +12,15 @@
     "sounds": [
       {
         "name": "scb:equip_spirit_armor",
+        "stream": false
+      }
+    ]
+  },
+  "breakmesong": {
+    "subtitle": "subtitles.breakmesong",
+    "sounds": [
+      {
+        "name": "scb:break_me",
         "stream": false
       }
     ]
