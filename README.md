@@ -2,6 +2,8 @@
 # Spiritual Come Back (SCB)
 Spiritual Come Back is a mod that allows you to return for your loot or your grave without taking too much risk along the way with the Spirit form!
 
+Important: This mod requires the Kleiders Custom Renderer API: https://legacy.curseforge.com/minecraft/mc-mods/kleiders-custom-renderer-api
+
 **Description:**
 Embark on an extraordinary journey of spiritual revival with the **Spiritual Come Back** mod! Experience a captivating adventure where death is but a temporary setback, and the realm of spirits beckons, offering unique advantages and supernatural protection.
 
