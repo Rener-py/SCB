@@ -25,4 +25,4 @@ At the place of a player's demise, a peculiar spirit flower blooms that exudes a
 **Spooky Advantage or Mysterious Force:**
 Breaking the spirit flower may reveal an unexpected boon or peril. A **50%** chance bestows the **Spooky Advantage** effect![spirit_Txt4_scaled_3x_pngcrushed](https://github.com/Rener-py/SCB/assets/47863186/502c0367-55a9-4d67-a905-460f20236a07), gifting players with 15 seconds of healing to mend their wounds and continue their quest. However, the fickle spirits decree that there is also a *5%* chance of a "Mysterious Force" unsettling one's journey. This force lifts players into the air and lets them fall, their fate uncertain.
 
-# This mod can be used to complement other grave mods that contain items on death, such as "Corpse", "GraveStone Mod", "You're in Grave Danger"
+# This mod can be used to complement other grave mods that contain items on death, such as "Corpse", "GraveStone Mod".
