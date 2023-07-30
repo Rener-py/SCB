@@ -1,0 +1,17 @@
+
+![Title1_black_background](https://github.com/Rener-py/SCB/assets/47863186/15256510-13ac-42f5-b6f8-9bcedb624a8e)
+![title2_black](https://github.com/Rener-py/SCB/assets/47863186/8492fa79-bba6-4014-85e4-411bd67d24c8)
+![Spiritual_Armor_nlack_backgrund](https://github.com/Rener-py/SCB/assets/47863186/b6423f62-35ba-41e7-8a9c-ca298b836f2b)
+![Panicked_spirit_black](https://github.com/Rener-py/SCB/assets/47863186/fd449086-2105-47d0-bcc3-299781cb411f)
+![Panicked_spiri_effectt_black](https://github.com/Rener-py/SCB/assets/47863186/1d485777-573a-4bbb-910e-2a1a0977283f)
+![spiritual_Defense_efffect_black](https://github.com/Rener-py/SCB/assets/47863186/796f2e57-4233-4ef3-9d31-98728cf0ad37)
+![spiritual_armor1](https://github.com/Rener-py/SCB/assets/47863186/f7aecba7-22ca-4280-9876-479eed919ab1)
+![spiritual_armor_3](https://github.com/Rener-py/SCB/assets/47863186/8e18760f-2252-473f-986f-cce77deb5974)
+![spiritual_armor_2](https://github.com/Rener-py/SCB/assets/47863186/f2b7ed8c-ed19-444f-b505-b7b954543e78)![test3](https://github.com/Rener-py/SCB/assets/47863186/a58c2991-a012-4ae2-af66-50cdd9a35d2a)
+
+![257006009-ba6b2472-4087-47ff-9a82-1df300c8d7ac](https://github.com/Rener-py/SCB/assets/47863186/491b9109-c091-4b9e-81a9-13c43e46b387)
+![257006018-03904ecd-7bef-4403-883d-fb34d9329441](https://github.com/Rener-py/SCB/assets/47863186/2aafd4e4-7eeb-435d-9fe4-9721a673ad57)
+![257006021-0b955ba5-d80a-4ea4-b32c-cf2d59649260](https://github.com/Rener-py/SCB/assets/47863186/8bb150ea-7c2a-4127-881e-589bc8472e08)
+![257006019-433a2c90-5f14-4c49-ba4f-c000aba7e5f5](https://github.com/Rener-py/SCB/assets/47863186/bce109fb-5aa2-48eb-8673-923090525477)
+![257006024-e7696174-da1b-4b18-963b-bff64eb40daf](https://github.com/Rener-py/SCB/assets/47863186/eea95c92-3a7b-44c9-9d67-e68ddb5b2fa6)
+![257006027-73a990df-8b39-473f-a6f7-cef4b7b338a9](https://github.com/Rener-py/SCB/assets/47863186/c2736df9-3f36-45af-985c-6fc9f5ea3b07)
