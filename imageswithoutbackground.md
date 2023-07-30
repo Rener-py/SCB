@@ -15,3 +15,4 @@
 ![257006019-433a2c90-5f14-4c49-ba4f-c000aba7e5f5](https://github.com/Rener-py/SCB/assets/47863186/bce109fb-5aa2-48eb-8673-923090525477)
 ![257006024-e7696174-da1b-4b18-963b-bff64eb40daf](https://github.com/Rener-py/SCB/assets/47863186/eea95c92-3a7b-44c9-9d67-e68ddb5b2fa6)
 ![257006027-73a990df-8b39-473f-a6f7-cef4b7b338a9](https://github.com/Rener-py/SCB/assets/47863186/c2736df9-3f36-45af-985c-6fc9f5ea3b07)
+![spirit_Txt4_scaled_3x_pngcrushed](https://github.com/Rener-py/SCB/assets/47863186/8b418852-278d-4358-8a3e-1d04eefa728c)
