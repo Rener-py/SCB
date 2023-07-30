@@ -13,7 +13,7 @@ Upon respawning, players are imbued with the **Panicked Spirit** effect for 60 s
 
 ![panicked_spirit_green_2](https://github.com/Rener-py/SCB/assets/47863186/26e71e62-e4d6-4563-a69b-1d984c341b72)
 
-Screenshot of the Panicked Spirit effect.
+Screenshot of the Panicked Spirit effect:
 ![2023-07-30_15 29 31](https://github.com/Rener-py/SCB/assets/47863186/49825d29-24a1-4e1e-ad5e-f09383156f7f)
 
 **Spiritual Protection and Armor:**
@@ -22,7 +22,7 @@ Spiritual Armor set (3 pieces): [![5_scaled_3x_pngcrushed](https://github.com/Re
 
 ![custom_model_1](https://github.com/Rener-py/SCB/assets/47863186/ba72e11b-b7b2-40c4-b880-ba19f8084154)
 
-Screenshot of the Spiritual Defense effect.
+Screenshot of the Spiritual Defense effect:
 ![2023-07-30_15 32 28](https://github.com/Rener-py/SCB/assets/47863186/c1500a0b-0c5f-4765-9fe5-42e4d069078d)
 
 
