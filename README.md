@@ -13,14 +13,25 @@ Upon respawning, players are imbued with the **Panicked Spirit** effect for 60 s
 
 ![panicked_spirit_green_2](https://github.com/Rener-py/SCB/assets/47863186/26e71e62-e4d6-4563-a69b-1d984c341b72)
 
+Screenshot of the Panicked Spirit effect.
+![2023-07-30_15 29 31](https://github.com/Rener-py/SCB/assets/47863186/49825d29-24a1-4e1e-ad5e-f09383156f7f)
+
 **Spiritual Protection and Armor:**
 In their spectral state, players must remain vigilant, for danger still lurks. If a player is attacked while embodying the **Panicked Spirit**, they receive the **Spiritual Protection** effect [![spirit_Txt2_scaled_3x_pngcrushed](https://github.com/Rener-py/SCB/assets/47863186/68250326-7098-4cb5-bdeb-162f099003f5)]. This ethereal safeguard, known as "Spiritual Armor," envelops them, providing a temporary armor set that lasts until they retrieve their belongings or the **Panicked Spirit** effect fades away.
 Spiritual Armor set (3 pieces): [![5_scaled_3x_pngcrushed](https://github.com/Rener-py/SCB/assets/47863186/272e9ca9-ac52-4c5c-b1b3-f75648906f57)![7_scaled_3x_pngcrushed](https://github.com/Rener-py/SCB/assets/47863186/528aa5d1-f80b-4c7f-a639-945f0335dcd6)![6_scaled_3x_pngcrushed](https://github.com/Rener-py/SCB/assets/47863186/d6ae9a6c-732a-4ae9-a5a3-a9642e084c10)]
 
 ![custom_model_1](https://github.com/Rener-py/SCB/assets/47863186/ba72e11b-b7b2-40c4-b880-ba19f8084154)
 
+Screenshot of the Spiritual Defense effect.
+![2023-07-30_15 32 28](https://github.com/Rener-py/SCB/assets/47863186/c1500a0b-0c5f-4765-9fe5-42e4d069078d)
+
+
 **The Enigmatic Spiritual Flower:** [![ezgif-4-8fa799c4fc_scaled_3x_minified](https://github.com/Rener-py/SCB/assets/47863186/1b3dee12-ad82-415f-bd93-9d94d5306bc5)]
 At the place of a player's demise, a peculiar spirit flower blooms that exudes an otherworldly aura. This mystical flower clears all spiritual effects just by being near it, inviting players to test their destiny.
+
+Screenshot of the Spiritual Flower:
+![this](https://github.com/Rener-py/SCB/assets/47863186/ee8dfcf5-7fef-44b7-a10e-d9ad8148a771)
+
 
 **Spooky Advantage or Mysterious Force:**
 Breaking the spirit flower may reveal an unexpected boon or peril. A **50%** chance bestows the **Spooky Advantage** effect![spirit_Txt4_scaled_3x_pngcrushed](https://github.com/Rener-py/SCB/assets/47863186/502c0367-55a9-4d67-a905-460f20236a07), gifting players with 15 seconds of healing to mend their wounds and continue their quest. However, the fickle spirits decree that there is also a *5%* chance of a "Mysterious Force" unsettling one's journey. This force lifts players into the air and lets them fall, their fate uncertain.
