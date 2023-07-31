@@ -1,5 +1,7 @@
 
 ![Title1_black_background](https://github.com/Rener-py/SCB/assets/47863186/15256510-13ac-42f5-b6f8-9bcedb624a8e)
+![graybackground title](https://github.com/Rener-py/SCB/assets/47863186/f535c957-34f6-4442-985f-b955e045a18f)
+
 ![title2_black](https://github.com/Rener-py/SCB/assets/47863186/8492fa79-bba6-4014-85e4-411bd67d24c8)
 ![Spiritual_Armor_nlack_backgrund](https://github.com/Rener-py/SCB/assets/47863186/b6423f62-35ba-41e7-8a9c-ca298b836f2b)
 ![Panicked_spirit_black](https://github.com/Rener-py/SCB/assets/47863186/fd449086-2105-47d0-bcc3-299781cb411f)
