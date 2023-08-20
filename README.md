@@ -9,7 +9,9 @@ Embark on an extraordinary journey of spiritual revival with the **Spiritual Com
 
 **Panicked Spirit Effect:** [![spirit_Txt3_scaled_3x_pngcrushed](https://github.com/Rener-py/SCB/assets/47863186/b9e67410-a2ec-47b4-898a-3175aedd55db)]
 
-Upon respawning, players are imbued with the **Panicked Spirit** effect for 60 seconds. As their mortal form temporarily fades, they take on a ghostly appearance, becoming ethereal beings. Swiftly navigating through the world, they are blessed with the effects of Speed II and Slow fall, enabling them to swiftly return to their lost possessions.
+Upon respawning, players are imbued with the **Panicked Spirit** effect for 120 seconds. As their mortal form temporarily fades, they take on a ghostly appearance, becoming ethereal beings. Swiftly navigating through the world, they are blessed with the effects of Speed II, Fire resistance and Slow fall, enabling them to swiftly return to their lost possessions.
+
+**New**: Added config file, now you can modify all functions! find it in ``/config/SpiritualComeBack_config.json``
 
 ![panicked_spirit_green_2](https://github.com/Rener-py/SCB/assets/47863186/26e71e62-e4d6-4563-a69b-1d984c341b72)
 
