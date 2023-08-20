@@ -1,0 +1,19 @@
+{
+  "item.scb.spiritual_armor_chestplate.descr": "Napierśnik z zaświatów... Zostanie zniszczony w kontakcie ze światem żywych.",
+  "block.scb.plantblock": "Duchowa roślina",
+  "item.scb.ad_2": "AD2",
+  "item.scb.ad_1": "AD1",
+  "item.scb.spiritual_armor_helmet": "Duchowy Napierśnik",
+  "advancements.adv_1.title": "Jestem duchem?",
+  "item.scb.spiritual_armor_helmet.descr": "Hełm z zaświatów... Zostanie zniszczony w kontakcie ze światem żywych.",
+  "effect.scb.panicked_spirit": "Przerażony duch",
+  "effect.scb.spiritual_defense": "Duchowa osłona",
+  "advancements.adv_2.descr": "Zdobądź zestaw duchowej zbroi po raz pierwszy",
+  "advancements.adv_2.title": "Ochrona przed życiem pozagrobowym",
+  "item.scb.spiritual_armor_boots.descr": "Buty z zaświatów... Zostanie zniszczony w kontakcie ze światem żywych.",
+  "item.scb.spiritual_armor_chestplate": "Duchowy Napierśnik",
+  "advancements.adv_1.descr": "Odrodź się jako duch po raz pierwszy",
+  "item.scb.spiritual_armor_boots": "Duchowe Buty",
+  "effect.scb.spooky_advantage": "Nadprzyrodzona przewaga",
+  "block.scb.weird.descr": "Roślina oczyszczająca stan duchowy, zdolna do leczenia lub uniesienia.. Upewnij się, że ją zasadzisz i zerwiesz."
+}
