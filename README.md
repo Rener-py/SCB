@@ -40,11 +40,19 @@ Breaking the spirit flower may reveal an unexpected boon or peril. A **50%** cha
 
 # This mod can be used to complement grave mods that contain items on death, such as "Corpse", "GraveStone Mod".
  
- Available translations:
+ **Available translations:**
+ 
 ![local_09](https://github.com/Rener-py/SCB/assets/47863186/ba6b2472-4087-47ff-9a82-1df300c8d7ac)
 ![local_16](https://github.com/Rener-py/SCB/assets/47863186/03904ecd-7bef-4403-883d-fb34d9329441)
 ![local_23](https://github.com/Rener-py/SCB/assets/47863186/433a2c90-5f14-4c49-ba4f-c000aba7e5f5)
 ![local_19](https://github.com/Rener-py/SCB/assets/47863186/0b955ba5-d80a-4ea4-b32c-cf2d59649260)
 ![local_07](https://github.com/Rener-py/SCB/assets/47863186/e7696174-da1b-4b18-963b-bff64eb40daf)
 ![local_03](https://github.com/Rener-py/SCB/assets/47863186/73a990df-8b39-473f-a6f7-cef4b7b338a9)
+![dmz1uoita9311_03](https://github.com/Rener-py/SCB/assets/47863186/b4ce34e3-98e7-4276-96f9-3f9f4a8cd867)
+![dmz1uoita9311_25](https://github.com/Rener-py/SCB/assets/47863186/690b7f7c-c45c-460a-b6d9-ff88d075f003)
+![dmz1uoita9311_22](https://github.com/Rener-py/SCB/assets/47863186/d2150f3f-8540-41c6-9058-a944a0b8c322)
+![dmz1uoita9311_18](https://github.com/Rener-py/SCB/assets/47863186/3190feb4-b6eb-41c5-ad31-25d151c25136)
+![dmz1uoita9311_11](https://github.com/Rener-py/SCB/assets/47863186/5fc4db51-0af1-4894-be2d-c2338710c723)
+![dmz1uoita9311_15](https://github.com/Rener-py/SCB/assets/47863186/0cb2bab4-6214-40fe-89d1-77881a7469b5)
+![dmz1uoita9311_07](https://github.com/Rener-py/SCB/assets/47863186/d9cc42c7-660f-460e-a3d6-4e224aa70eb5)
 
