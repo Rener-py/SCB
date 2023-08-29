@@ -8,6 +8,7 @@ import net.minecraftforge.event.entity.item.ItemTossEvent;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerPlayer;
 
 import net.mcreator.scbreforged.init.ScbModItems;
 
@@ -27,7 +28,7 @@ public class SpiritualDefenseOnEffectActiveTickProcedure {
 	private static void execute(@Nullable Event event, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player && entity.isAlive()) {
+		if ((entity instanceof Player || entity instanceof ServerPlayer) && entity.isAlive()) {
 			if (itemstack.getItem() == ScbModItems.SPIRITUAL_ARMOR_HELMET.get() || itemstack.getItem() == ScbModItems.SPIRITUAL_ARMOR_CHESTPLATE.get() || itemstack.getItem() == ScbModItems.SPIRITUAL_ARMOR_BOOTS.get()) {
 				if (event != null && event.isCancelable()) {
 					event.setCanceled(true);

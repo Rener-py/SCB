@@ -61,6 +61,8 @@ public class CleaneffectproximityProcedure {
 				_entity.removeEffect(MobEffects.SLOW_FALLING);
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeEffect(ScbModMobEffects.SPIRITUAL_DEFENSE.get());
+			if (entity instanceof LivingEntity _entity)
+				_entity.removeEffect(MobEffects.FIRE_RESISTANCE);
 		}
 	}
 }
