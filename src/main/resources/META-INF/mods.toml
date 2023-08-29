@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="scb"
-version="1.3"
+version="1.5"
 displayName="Spiritual Come Back (SCB)"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"

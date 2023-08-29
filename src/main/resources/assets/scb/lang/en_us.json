@@ -15,5 +15,6 @@
   "advancements.adv_1.descr": "Spawn with the spirit form for the first time",
   "item.scb.spiritual_armor_boots": "Spiritual Armor Boots",
   "effect.scb.spooky_advantage": "Spooky Advantage",
-  "block.scb.weird.descr": "A spiritual plant that cleanses the spiritual state and could heal or uplift you... Make sure to plant and break it."
+  "subtitles.spiritual_armor_get": "",
+  "block.scb.weird.descr": "A spiritual plant that cleanses the spiritual state and could heal or lift you up in the air... Make sure to plant and break it."
 }

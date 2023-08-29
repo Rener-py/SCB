@@ -24,5 +24,13 @@
         "stream": false
       }
     ]
+  },
+  "spiritual_armor_get": {
+    "sounds": [
+      {
+        "name": "scb:spiritual_arnor_get",
+        "stream": false
+      }
+    ]
   }
 }
